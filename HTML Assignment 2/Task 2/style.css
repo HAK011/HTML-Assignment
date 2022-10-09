@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'BoldItalic';
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ThinItalic';
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'LightItalic';
+    src: url(./Roboto/Roboto-MidiumItalic.ttf);
+}
+
+h4{
+    font-family: 'ThinItalic', Verdana, Geneva, Tahoma, sans-serif;
+    display: inline; 
+    margin-right: 15px;
+}
+
+.footer{
+    font-family: 'BoldItalic', sans-serif;
+}
+
+.MainPage{
+    display: grid;
+    background-color: rgb(6, 6, 39);
+    height: 12cm;
+    grid-template-areas:
+     "a b"
+     "c d";
+   margin: 100px;
+}
+
+.Header1{
+    padding-top: 5px;
+    grid-area: a;
+    width: 50%;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.Header2{
+    padding-top: 20px;
+    grid-area: b;
+    margin-right: 200px;
+    text-align: right;
+}
+
+.Header3{
+    grid-area: c;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.Header4{
+    grid-area: d;
+    margin-right: 200px;
+    text-align: right;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+
+.Reason {
+    text-align: center; 
+    margin-top:-80px;
+    margin-bottom: 30px;
+}
+
+.Containers{
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+.quoteBox {
+    background-color: #e5e7eb; 
+    height: 400px; 
+    margin: 100px;
+}
+
+.quote{
+    text-align: left; 
+    font-size: 25px; 
+    padding:50px;  
+    padding-top: 100px; 
+    width: 500px; 
+    color:#1f2937; 
+    margin-left: 200px;
+    text-justify: center;
+    font-family: 'LightItalic','Arial Narrow Bold', sans-serif;
+}
+
+span {
+    text-align: left;
+    font-size: 15px; 
+    margin-left: 280px;
+}
+
+.CallBox {
+    background-color:rgb(0, 76, 255); 
+    height: 130px; 
+    margin: 250px; 
+    margin-top: -50px;
+}
+
+.descriptions{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.move{
+    display: flex;
+    text-align: left;
+}
+
+.Call{
+    width: 50%;
+    height: 100px;
+    padding-left: 100px;
+    padding-top: 3pc;
+    margin-top: 80px;
+}
+
+.CopyRight {
+    background-color: rgb(6, 6, 39); 
+    height: 100px; 
+    margin: 100px; 
+    margin-top: -200px; 
+    color: white; 
+    text-align: center; 
+    padding-top: 50px;
+}
