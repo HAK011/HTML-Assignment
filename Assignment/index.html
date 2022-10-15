@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>check console</h1>
+    <script>
+        function diagonal()
+        {
+         x = Math.sqrt(2) * 9
+            return x;
+        }
+        console.log("The diagonal of the square with lenght 9 is = " + diagonal());
+        function area()
+        {
+            y = 5 * 6 * 7
+            return y;
+        }
+        console.log("The area of the circle with sides 5,6,7 is = " + area());
+        function circumference()
+        {
+            c = Math.PI * 2 * 4
+            s=Math.PI * ( 4 * 4 )
+            return ("The Circumference of the circle with radius 4 is = "+ c +" and The Surface area is = " + s);
+        }
+        console.log(circumference());
+        function bigger(w , z)
+        {
+              if(w > z)
+              {
+               var big= ("bigger number between "+ w +" and "+ z +" is = "+ w);
+              }else{
+                big = ("bigger number between "+ w +" and "+ z +" is = "+ z);
+              }
+              return big;
+        }
+        console.log(bigger (36, 86));
+        function checkEvenOrOdd(v){
+            if(v % 2 == 0){
+                var q = ("the number "+ v +" is an even number");
+            }else if(v % 2 == 1){
+                q = ("the number "+ v +" is an odd number");
+            }else{
+                q = ("please give an integer");
+            }
+            return q;
+        }
+        console.log(checkEvenOrOdd (54));
+    </script>
+</body>
+</html>
